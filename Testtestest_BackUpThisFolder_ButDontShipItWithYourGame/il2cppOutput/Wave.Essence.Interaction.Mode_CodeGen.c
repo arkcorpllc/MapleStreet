@@ -1,0 +1,609 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::DEBUG(System.String)
+extern void InteractionModeManager_DEBUG_m9D5363FF1E3AB0677E27EACE4AFC78047DC79B98 (void);
+// 0x00000002 System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::INFO(System.String)
+extern void InteractionModeManager_INFO_mD977BBEC57CAFA0BCAA15070268959146BCD4E8C (void);
+// 0x00000003 System.Boolean Wave.Essence.Interaction.Mode.InteractionModeManager::get_EyeTracking()
+extern void InteractionModeManager_get_EyeTracking_m19018401ABD7FF23E5B5402FE3BB22CFB6E1040B (void);
+// 0x00000004 System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::set_EyeTracking(System.Boolean)
+extern void InteractionModeManager_set_EyeTracking_m0DF9F9D177B822F1C799DFF414AB693B8C199EE2 (void);
+// 0x00000005 System.Boolean Wave.Essence.Interaction.Mode.InteractionModeManager::get_Movable()
+extern void InteractionModeManager_get_Movable_m77093AF13A4144D10A6B0B708CF7A64F14BA693F (void);
+// 0x00000006 System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::set_Movable(System.Boolean)
+extern void InteractionModeManager_set_Movable_m8E818FE76A2EDBDF87DC9D75BBC261E852DFA0CD (void);
+// 0x00000007 Wave.Essence.InputModule.GazeInputModule/GazeEvent Wave.Essence.Interaction.Mode.InteractionModeManager::get_InputEvent()
+extern void InteractionModeManager_get_InputEvent_m6F4D0B704D9D542353FAB6CA700C6FD28445BD00 (void);
+// 0x00000008 System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::set_InputEvent(Wave.Essence.InputModule.GazeInputModule/GazeEvent)
+extern void InteractionModeManager_set_InputEvent_mB9D73E57E35CEA63E362CD9D2BB75F38543E3C4F (void);
+// 0x00000009 System.Boolean Wave.Essence.Interaction.Mode.InteractionModeManager::get_TimerControl()
+extern void InteractionModeManager_get_TimerControl_m954AB6C81E857A4BC6E44B769E2EC7058D4FAF74 (void);
+// 0x0000000A System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::set_TimerControl(System.Boolean)
+extern void InteractionModeManager_set_TimerControl_mF216A70C09266FE1FF41F109D48DED77DACDA85A (void);
+// 0x0000000B System.Single Wave.Essence.Interaction.Mode.InteractionModeManager::get_TimeToGaze()
+extern void InteractionModeManager_get_TimeToGaze_m92BC1D7CD588E423378FE5C2E002BD3F6DA17017 (void);
+// 0x0000000C System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::set_TimeToGaze(System.Single)
+extern void InteractionModeManager_set_TimeToGaze_m2C3E1FC62E45D80FFEF0139C537A1910B2E192ED (void);
+// 0x0000000D System.Boolean Wave.Essence.Interaction.Mode.InteractionModeManager::get_ButtonControl()
+extern void InteractionModeManager_get_ButtonControl_m734FCE63A156824243E039BE8E34AAE040FCF2A8 (void);
+// 0x0000000E System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::set_ButtonControl(System.Boolean)
+extern void InteractionModeManager_set_ButtonControl_m593579A7B6EA968675F18D5913F4730D31801FD4 (void);
+// 0x0000000F Wave.Essence.InputModule.GazeInputModule/DeviceOption Wave.Essence.Interaction.Mode.InteractionModeManager::get_ButtonControlDevices()
+extern void InteractionModeManager_get_ButtonControlDevices_m65EF66A0481DB9FE6B5D51996F01CC4DBBD73903 (void);
+// 0x00000010 System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::set_ButtonControlDevices(Wave.Essence.InputModule.GazeInputModule/DeviceOption)
+extern void InteractionModeManager_set_ButtonControlDevices_m52B21E89C77B3D5CFF977808F2EE791D2984EF20 (void);
+// 0x00000011 Wave.Essence.InputModule.GazeInputModule/ButtonOption Wave.Essence.Interaction.Mode.InteractionModeManager::get_ButtonControlKeys()
+extern void InteractionModeManager_get_ButtonControlKeys_m6E40C1D6188D846FCE03428C8038FE2DD8910DB1 (void);
+// 0x00000012 System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::set_ButtonControlKeys(Wave.Essence.InputModule.GazeInputModule/ButtonOption)
+extern void InteractionModeManager_set_ButtonControlKeys_m5393A95EB06656EC995E7D997D8A878496AF7D73 (void);
+// 0x00000013 System.Boolean Wave.Essence.Interaction.Mode.InteractionModeManager::get_EnableEyeTracking()
+extern void InteractionModeManager_get_EnableEyeTracking_m62B34BA3F4F4F0FD176A9147A1207773BA3612B1 (void);
+// 0x00000014 System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::set_EnableEyeTracking(System.Boolean)
+extern void InteractionModeManager_set_EnableEyeTracking_m4DCDC652D854ED9157E755428A0888D9A7A6C1F5 (void);
+// 0x00000015 Wave.Essence.Eye.EyeManager/EyeSpace Wave.Essence.Interaction.Mode.InteractionModeManager::get_LocationSpace()
+extern void InteractionModeManager_get_LocationSpace_mD1499EEF98ACA78B19B9F13DB61F5E575D98D294 (void);
+// 0x00000016 System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::set_LocationSpace(Wave.Essence.Eye.EyeManager/EyeSpace)
+extern void InteractionModeManager_set_LocationSpace_m729DD68C1C9D80EF653C6BB16F4C63830E88AD9E (void);
+// 0x00000017 Wave.Essence.InputModule.ControllerInputModule/BeamModes Wave.Essence.Interaction.Mode.InteractionModeManager::get_BeamMode()
+extern void InteractionModeManager_get_BeamMode_m219272183A0377289EF920A17CE487E26B6EF882 (void);
+// 0x00000018 System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::set_BeamMode(Wave.Essence.InputModule.ControllerInputModule/BeamModes)
+extern void InteractionModeManager_set_BeamMode_m771D144C2F7FADF262B99283903DD135CA05AF8A (void);
+// 0x00000019 System.Boolean Wave.Essence.Interaction.Mode.InteractionModeManager::get_DominantEvent()
+extern void InteractionModeManager_get_DominantEvent_m5CD2FF1AE002263BDA6595115C1552B37BEE8DD3 (void);
+// 0x0000001A System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::set_DominantEvent(System.Boolean)
+extern void InteractionModeManager_set_DominantEvent_m4B1262B80B5ABA57C6746435D25947211C82E582 (void);
+// 0x0000001B UnityEngine.LayerMask Wave.Essence.Interaction.Mode.InteractionModeManager::get_DominantRaycastMask()
+extern void InteractionModeManager_get_DominantRaycastMask_mB26D642956AE1F2B4B7C3A149A6C11C0DFA9F83E (void);
+// 0x0000001C System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::set_DominantRaycastMask(UnityEngine.LayerMask)
+extern void InteractionModeManager_set_DominantRaycastMask_mE759D41B529C0C6CEF3C8BA9369A83A2ADD24B98 (void);
+// 0x0000001D System.Boolean Wave.Essence.Interaction.Mode.InteractionModeManager::get_NonDominantEvent()
+extern void InteractionModeManager_get_NonDominantEvent_m8775FF1282E0BF3612C2A3895B87F64BE1F92D45 (void);
+// 0x0000001E System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::set_NonDominantEvent(System.Boolean)
+extern void InteractionModeManager_set_NonDominantEvent_m2CB94329D980AE3D1D5B10F4113B464CA5809521 (void);
+// 0x0000001F UnityEngine.LayerMask Wave.Essence.Interaction.Mode.InteractionModeManager::get_NonDominantRaycastMask()
+extern void InteractionModeManager_get_NonDominantRaycastMask_m66F5A120D254FCF9F041FC2383B0EA76BBEB4273 (void);
+// 0x00000020 System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::set_NonDominantRaycastMask(UnityEngine.LayerMask)
+extern void InteractionModeManager_set_NonDominantRaycastMask_m46BD1B1144AF755535BC5CBD8FADCFCEFA950671 (void);
+// 0x00000021 Wave.Essence.InputModule.ControllerInputModule/ButtonOption Wave.Essence.Interaction.Mode.InteractionModeManager::get_ButtonToTrigger()
+extern void InteractionModeManager_get_ButtonToTrigger_m4526A3BA003F42C5C1B81A036098581221964965 (void);
+// 0x00000022 System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::set_ButtonToTrigger(Wave.Essence.InputModule.ControllerInputModule/ButtonOption)
+extern void InteractionModeManager_set_ButtonToTrigger_m44ADB41804A92A3BE3E587DAD31A431068C1DB55 (void);
+// 0x00000023 System.Single Wave.Essence.Interaction.Mode.InteractionModeManager::get_FixedBeamLength()
+extern void InteractionModeManager_get_FixedBeamLength_m9769C8767885132DA91E8D4C7D357F5CED00C1A1 (void);
+// 0x00000024 System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::set_FixedBeamLength(System.Single)
+extern void InteractionModeManager_set_FixedBeamLength_m7F6325E5407D0FBA460B021275220DBD3C362195 (void);
+// 0x00000025 UnityEngine.GameObject Wave.Essence.Interaction.Mode.InteractionModeManager::get_DominantController()
+extern void InteractionModeManager_get_DominantController_mD41A521E21DB5EE616D0EA259CEAA69EBA4E8E2B (void);
+// 0x00000026 System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::set_DominantController(UnityEngine.GameObject)
+extern void InteractionModeManager_set_DominantController_mDCEB65BF8E7FC805158CF439BD8D76BBF2998CE3 (void);
+// 0x00000027 UnityEngine.GameObject Wave.Essence.Interaction.Mode.InteractionModeManager::get_NonDominantController()
+extern void InteractionModeManager_get_NonDominantController_mE6D9389B216F5BEBAF83904D7E5F3122DF795FD9 (void);
+// 0x00000028 System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::set_NonDominantController(UnityEngine.GameObject)
+extern void InteractionModeManager_set_NonDominantController_m46D6B6CB42DB36AAC896B13A008D3131923E689C (void);
+// 0x00000029 UnityEngine.GameObject Wave.Essence.Interaction.Mode.InteractionModeManager::get_RightHandSelector()
+extern void InteractionModeManager_get_RightHandSelector_mE634EE754C9722CE7D8184FBC03CF3B4DF5DD7E0 (void);
+// 0x0000002A System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::set_RightHandSelector(UnityEngine.GameObject)
+extern void InteractionModeManager_set_RightHandSelector_m26E7CCC5FBCD1137BB5502BFF8D4027AC537AA30 (void);
+// 0x0000002B UnityEngine.GameObject Wave.Essence.Interaction.Mode.InteractionModeManager::get_LeftHandSelector()
+extern void InteractionModeManager_get_LeftHandSelector_m7523DAE5871D99D72885976589C94E67512449A7 (void);
+// 0x0000002C System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::set_LeftHandSelector(UnityEngine.GameObject)
+extern void InteractionModeManager_set_LeftHandSelector_m86BD3A0BA84830E458D217790120209710C32636 (void);
+// 0x0000002D System.Boolean Wave.Essence.Interaction.Mode.InteractionModeManager::get_UseDefaultPinch()
+extern void InteractionModeManager_get_UseDefaultPinch_m60205EEBFD18B906D8E866C25CA3F4E62479AA69 (void);
+// 0x0000002E System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::set_UseDefaultPinch(System.Boolean)
+extern void InteractionModeManager_set_UseDefaultPinch_mFA1C067984F1161B2BDA2C8BFAABA3852BD99D74 (void);
+// 0x0000002F System.Single Wave.Essence.Interaction.Mode.InteractionModeManager::get_PinchOnThreshold()
+extern void InteractionModeManager_get_PinchOnThreshold_m316707E6B607918E65E38F3713445424C5E35086 (void);
+// 0x00000030 System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::set_PinchOnThreshold(System.Single)
+extern void InteractionModeManager_set_PinchOnThreshold_m5D94A6977AEDB0CF17B9CF17C1F46CC5A8C3B102 (void);
+// 0x00000031 System.Single Wave.Essence.Interaction.Mode.InteractionModeManager::get_PinchOffThreshold()
+extern void InteractionModeManager_get_PinchOffThreshold_m9A85B11D51D3EDF2B5DB69816560A93673DB0582 (void);
+// 0x00000032 System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::set_PinchOffThreshold(System.Single)
+extern void InteractionModeManager_set_PinchOffThreshold_m413E95B746BCFF610384C35587AC40B525E170BF (void);
+// 0x00000033 System.Single Wave.Essence.Interaction.Mode.InteractionModeManager::get_PinchTimeToDrag()
+extern void InteractionModeManager_get_PinchTimeToDrag_m0695D477711419811ADA7D3F98BF1F70C82719E1 (void);
+// 0x00000034 System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::set_PinchTimeToDrag(System.Single)
+extern void InteractionModeManager_set_PinchTimeToDrag_mFB63E7541D007313EC4F155C1DD4FD8F66F97A51 (void);
+// 0x00000035 Wave.Essence.Hand.HandManager/TrackerSelector Wave.Essence.Interaction.Mode.InteractionModeManager::get_PriorTracker()
+extern void InteractionModeManager_get_PriorTracker_mBF954C9EEFE76DC23530AED2D671820751A13BA0 (void);
+// 0x00000036 System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::set_PriorTracker(Wave.Essence.Hand.HandManager/TrackerSelector)
+extern void InteractionModeManager_set_PriorTracker_m8061F9C7B0E00240BC95372F654B3720E135D8CB (void);
+// 0x00000037 System.Boolean Wave.Essence.Interaction.Mode.InteractionModeManager::get_InitialStartNaturalHand()
+extern void InteractionModeManager_get_InitialStartNaturalHand_m9326066AA549EE87DDDD26DBAE9B022464E98547 (void);
+// 0x00000038 System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::set_InitialStartNaturalHand(System.Boolean)
+extern void InteractionModeManager_set_InitialStartNaturalHand_m0F42B628AE7E42769FB8239FA8C00A561AB7C976 (void);
+// 0x00000039 System.Boolean Wave.Essence.Interaction.Mode.InteractionModeManager::get_InitialStartElectronicHand()
+extern void InteractionModeManager_get_InitialStartElectronicHand_m168A908ADD3283A899F5E703237ED66468D57D1A (void);
+// 0x0000003A System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::set_InitialStartElectronicHand(System.Boolean)
+extern void InteractionModeManager_set_InitialStartElectronicHand_m1DF16B35291C469257B80F718E91DE9DB6285400 (void);
+// 0x0000003B Wave.Essence.Hand.HandManager/HandModel Wave.Essence.Interaction.Mode.InteractionModeManager::get_ElectronicHandModel()
+extern void InteractionModeManager_get_ElectronicHandModel_mE10EA6DA0C2E63FFA70E1808B0B7160082744C1E (void);
+// 0x0000003C System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::set_ElectronicHandModel(Wave.Essence.Hand.HandManager/HandModel)
+extern void InteractionModeManager_set_ElectronicHandModel_m87C74ACB3FE4B374196C631B250A2383DFDAB00D (void);
+// 0x0000003D System.Boolean Wave.Essence.Interaction.Mode.InteractionModeManager::get_ShowElectronicHandIfSupported()
+extern void InteractionModeManager_get_ShowElectronicHandIfSupported_mDB4F87A960C678132A90709665F394CBB33EF217 (void);
+// 0x0000003E System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::set_ShowElectronicHandIfSupported(System.Boolean)
+extern void InteractionModeManager_set_ShowElectronicHandIfSupported_m522F75B0DF0F9EA25EE9D907230BD45C4035A0AC (void);
+// 0x0000003F Wave.Essence.Interaction.Mode.InteractionModeManager Wave.Essence.Interaction.Mode.InteractionModeManager::get_Instance()
+extern void InteractionModeManager_get_Instance_m49E841F2C82EA2BDDECDF57091FEA39AAD09A7B0 (void);
+// 0x00000040 System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::Awake()
+extern void InteractionModeManager_Awake_mE22AADCBD5DFC7568E21B291D2B8F8122E5F66DA (void);
+// 0x00000041 System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::OnEnable()
+extern void InteractionModeManager_OnEnable_m95919EA7F90C13BC2049EEDAA18A8205C118A38D (void);
+// 0x00000042 System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::OnDisable()
+extern void InteractionModeManager_OnDisable_mD6308C6CF8E9767D76334314340321691CF5BC50 (void);
+// 0x00000043 System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::Update()
+extern void InteractionModeManager_Update_m5791D9E269F3788DD8BC88CD200427FF4069B351 (void);
+// 0x00000044 System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::NotifyInteractionManagerExistToAll()
+extern void InteractionModeManager_NotifyInteractionManagerExistToAll_m3592FAEA4E9484B81C6E75BDCF1F201E3173BCB1 (void);
+// 0x00000045 System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::CheckEventSystem()
+extern void InteractionModeManager_CheckEventSystem_mE519A6853B66E3D7E355976DF928E4EB9D35688D (void);
+// 0x00000046 System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::UpdateCurrentMode()
+extern void InteractionModeManager_UpdateCurrentMode_m449F6311D4F9E24E7B9BE528319C97C9BBE3C765 (void);
+// 0x00000047 System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::AddInputModule(Wave.Essence.Interaction.Mode.InteractionModeManager/InputTypes)
+extern void InteractionModeManager_AddInputModule_mC74EC25DC890AEA0EF1CE6A02C06D472C082174B (void);
+// 0x00000048 System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::EnableGazeInputModule()
+extern void InteractionModeManager_EnableGazeInputModule_m5F72CC82EA4DCA4133C122CB98252A9B96BDC63D (void);
+// 0x00000049 System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::DisableGazeInputModule()
+extern void InteractionModeManager_DisableGazeInputModule_mFA858AC8494380BF1A51FE22945682754ADFECFA (void);
+// 0x0000004A System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::EnableControllerInputModule()
+extern void InteractionModeManager_EnableControllerInputModule_m34416B2ABF8475BC2EA3988D0C089FCE056205F7 (void);
+// 0x0000004B System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::CreateController(Wave.Essence.XR_Hand)
+extern void InteractionModeManager_CreateController_m8A9D74C9C56D53204CB77ED2CDE484CAE6297802 (void);
+// 0x0000004C System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::DisableControllerInputModule()
+extern void InteractionModeManager_DisableControllerInputModule_m8C2EBB258E2253795C0D763407EE27931E7C7016 (void);
+// 0x0000004D System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::EnableHandInputModule()
+extern void InteractionModeManager_EnableHandInputModule_mFBF7846CA824B42E9622AE32600312B7F3D8E5B3 (void);
+// 0x0000004E System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::CreateHandModel(Wave.Essence.Hand.HandManager/HandType)
+extern void InteractionModeManager_CreateHandModel_m709249C37408D6D4EED6FEEE3209C4CC14717AA3 (void);
+// 0x0000004F System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::CreateHandSelector(Wave.Essence.Hand.HandManager/HandType)
+extern void InteractionModeManager_CreateHandSelector_m2F4BB6C5020B8C62D6DA56F312088946503A7080 (void);
+// 0x00000050 System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::DisableHandInputModule()
+extern void InteractionModeManager_DisableHandInputModule_m89D511BC4468784585D8DEA9ADB74A5A904FB32A (void);
+// 0x00000051 System.Void Wave.Essence.Interaction.Mode.InteractionModeManager::.ctor()
+extern void InteractionModeManager__ctor_m6E22139ACB452B0C448E3896D7C01A6C767EFE8E (void);
+// 0x00000052 System.Void Wave.Essence.Interaction.Mode.Demo.ControllerPoseModeTest::DEBUG(System.String)
+extern void ControllerPoseModeTest_DEBUG_m6491D4E9B0E7B996656CEDFD40A8803DA64AB86A (void);
+// 0x00000053 Wave.Essence.XR_Hand Wave.Essence.Interaction.Mode.Demo.ControllerPoseModeTest::get_Controller()
+extern void ControllerPoseModeTest_get_Controller_mD42899DC3950A8E6A4D6EB31A968C3DD9FD698CD (void);
+// 0x00000054 System.Void Wave.Essence.Interaction.Mode.Demo.ControllerPoseModeTest::set_Controller(Wave.Essence.XR_Hand)
+extern void ControllerPoseModeTest_set_Controller_m6CBADF7A4AA42AC66C72333BFF084F68B412CC05 (void);
+// 0x00000055 UnityEngine.UI.Text Wave.Essence.Interaction.Mode.Demo.ControllerPoseModeTest::get_ModeText()
+extern void ControllerPoseModeTest_get_ModeText_m9CAC557AF7309B2727AF2772A52C31346ADFDA54 (void);
+// 0x00000056 System.Void Wave.Essence.Interaction.Mode.Demo.ControllerPoseModeTest::set_ModeText(UnityEngine.UI.Text)
+extern void ControllerPoseModeTest_set_ModeText_m5A494F6B9CD014C8524AD1DFD43AA29BBC0F7FC3 (void);
+// 0x00000057 System.Void Wave.Essence.Interaction.Mode.Demo.ControllerPoseModeTest::Start()
+extern void ControllerPoseModeTest_Start_m17C333EBD85935C5178DF122FF804E152C0C7B59 (void);
+// 0x00000058 System.Void Wave.Essence.Interaction.Mode.Demo.ControllerPoseModeTest::Update()
+extern void ControllerPoseModeTest_Update_m8468E76527723231FE6387A0F1CFBA0863ABC184 (void);
+// 0x00000059 System.Void Wave.Essence.Interaction.Mode.Demo.ControllerPoseModeTest::SetTriggerMode()
+extern void ControllerPoseModeTest_SetTriggerMode_m6693A559A63612363012FD5DFAF6710CE70A620A (void);
+// 0x0000005A System.Void Wave.Essence.Interaction.Mode.Demo.ControllerPoseModeTest::SetPanelMode()
+extern void ControllerPoseModeTest_SetPanelMode_mB27CF0709C1F0AAFA5FDE1DF01162AF18462497A (void);
+// 0x0000005B System.Void Wave.Essence.Interaction.Mode.Demo.ControllerPoseModeTest::SetHandleMode()
+extern void ControllerPoseModeTest_SetHandleMode_m5FFEE4E180FA556DE66669AAEB73C90B4B73DBF6 (void);
+// 0x0000005C System.Void Wave.Essence.Interaction.Mode.Demo.ControllerPoseModeTest::.ctor()
+extern void ControllerPoseModeTest__ctor_m35A72207302CD5BA4634B9D9F069032F5DCF76BF (void);
+// 0x0000005D System.Void Wave.Essence.Interaction.Mode.Demo.CubeEventHandler::DEBUG(System.String)
+extern void CubeEventHandler_DEBUG_m60A9C9B22A994B2120FF9DD78D473AA4EE523349 (void);
+// 0x0000005E System.Void Wave.Essence.Interaction.Mode.Demo.CubeEventHandler::OnEnable()
+extern void CubeEventHandler_OnEnable_mAE29002B4009F6C06957F1BF11341D4C87741D0B (void);
+// 0x0000005F System.Void Wave.Essence.Interaction.Mode.Demo.CubeEventHandler::TeleportRandomly()
+extern void CubeEventHandler_TeleportRandomly_mFC57B67794E46821671A9247922A5A6A21AC650E (void);
+// 0x00000060 System.Void Wave.Essence.Interaction.Mode.Demo.CubeEventHandler::OnPointerEnter(UnityEngine.EventSystems.PointerEventData)
+extern void CubeEventHandler_OnPointerEnter_m24A7617575E98326C9A5024425DC1DA1D64FA836 (void);
+// 0x00000061 System.Void Wave.Essence.Interaction.Mode.Demo.CubeEventHandler::OnPointerExit(UnityEngine.EventSystems.PointerEventData)
+extern void CubeEventHandler_OnPointerExit_mDAE24E88AB1C45BEBBE1255F17441E94061E3C26 (void);
+// 0x00000062 System.Void Wave.Essence.Interaction.Mode.Demo.CubeEventHandler::OnPointerDown(UnityEngine.EventSystems.PointerEventData)
+extern void CubeEventHandler_OnPointerDown_m3B985D48FF294BE4C83FE5A620F438BABA9EFCA8 (void);
+// 0x00000063 System.Void Wave.Essence.Interaction.Mode.Demo.CubeEventHandler::OnPointerUp(UnityEngine.EventSystems.PointerEventData)
+extern void CubeEventHandler_OnPointerUp_mA477BD246262AFB0420EBCCF861A28BE099CC0D4 (void);
+// 0x00000064 System.Void Wave.Essence.Interaction.Mode.Demo.CubeEventHandler::OnBeginDrag(UnityEngine.EventSystems.PointerEventData)
+extern void CubeEventHandler_OnBeginDrag_m6C384E4F2C35AA92CEFC46BC455FFA9C9100B134 (void);
+// 0x00000065 System.Void Wave.Essence.Interaction.Mode.Demo.CubeEventHandler::OnDrag(UnityEngine.EventSystems.PointerEventData)
+extern void CubeEventHandler_OnDrag_m5CC25998D0D87AF49495D79FA237343D20900B6B (void);
+// 0x00000066 System.Void Wave.Essence.Interaction.Mode.Demo.CubeEventHandler::OnEndDrag(UnityEngine.EventSystems.PointerEventData)
+extern void CubeEventHandler_OnEndDrag_mD94773B4D68528D77B657158227CA4C3F61DC3FD (void);
+// 0x00000067 System.Void Wave.Essence.Interaction.Mode.Demo.CubeEventHandler::OnDrop(UnityEngine.EventSystems.PointerEventData)
+extern void CubeEventHandler_OnDrop_m8DC25DE45AE04BB31715CB6F1AF68D98AAF929AD (void);
+// 0x00000068 System.Void Wave.Essence.Interaction.Mode.Demo.CubeEventHandler::Rotate()
+extern void CubeEventHandler_Rotate_mF69B54B41376AB0FC88850E8D442C96DBB048398 (void);
+// 0x00000069 System.Void Wave.Essence.Interaction.Mode.Demo.CubeEventHandler::OnHover(UnityEngine.EventSystems.PointerEventData)
+extern void CubeEventHandler_OnHover_m1545A3E986B0E9A2DD01E42C050067D70917C64F (void);
+// 0x0000006A System.Void Wave.Essence.Interaction.Mode.Demo.CubeEventHandler::OnPointerClick(UnityEngine.EventSystems.PointerEventData)
+extern void CubeEventHandler_OnPointerClick_mC83B59B81A4DD2706DD8A55D7BC8D55E68267D16 (void);
+// 0x0000006B System.Collections.IEnumerator Wave.Essence.Interaction.Mode.Demo.CubeEventHandler::TrackPointer()
+extern void CubeEventHandler_TrackPointer_mD24D1079E3D8A84B0D8F63F55DCEF8E8738313F6 (void);
+// 0x0000006C System.Void Wave.Essence.Interaction.Mode.Demo.CubeEventHandler::OnShowCube()
+extern void CubeEventHandler_OnShowCube_m903ED76112879F8EA438CE9D33ACC3DD237B88F7 (void);
+// 0x0000006D System.Void Wave.Essence.Interaction.Mode.Demo.CubeEventHandler::OnHideCube()
+extern void CubeEventHandler_OnHideCube_m5AE397B23C38EE58C26ACF5AC80BBA17F065D9F1 (void);
+// 0x0000006E System.Void Wave.Essence.Interaction.Mode.Demo.CubeEventHandler::OnTrigger()
+extern void CubeEventHandler_OnTrigger_mF7A6A10FDA0E1902EEB6892965F65081EF47C3D1 (void);
+// 0x0000006F System.Void Wave.Essence.Interaction.Mode.Demo.CubeEventHandler::.ctor()
+extern void CubeEventHandler__ctor_m28A33DF6854A4CC2C960949822FABCC621B7261C (void);
+// 0x00000070 System.Void Wave.Essence.Interaction.Mode.Demo.CubeEventHandler/<TrackPointer>d__20::.ctor(System.Int32)
+extern void U3CTrackPointerU3Ed__20__ctor_m2C16A90CAC2C3FA47BD01F0A0774D82102752FBF (void);
+// 0x00000071 System.Void Wave.Essence.Interaction.Mode.Demo.CubeEventHandler/<TrackPointer>d__20::System.IDisposable.Dispose()
+extern void U3CTrackPointerU3Ed__20_System_IDisposable_Dispose_m22F1BA28631F830D02BC5913158D36113C954191 (void);
+// 0x00000072 System.Boolean Wave.Essence.Interaction.Mode.Demo.CubeEventHandler/<TrackPointer>d__20::MoveNext()
+extern void U3CTrackPointerU3Ed__20_MoveNext_m87484FFFCDF309031EF84163FB17D42B34117FFA (void);
+// 0x00000073 System.Object Wave.Essence.Interaction.Mode.Demo.CubeEventHandler/<TrackPointer>d__20::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CTrackPointerU3Ed__20_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mFB07ECA8478B7B7ADC3872AE22CB5D90ABF16711 (void);
+// 0x00000074 System.Void Wave.Essence.Interaction.Mode.Demo.CubeEventHandler/<TrackPointer>d__20::System.Collections.IEnumerator.Reset()
+extern void U3CTrackPointerU3Ed__20_System_Collections_IEnumerator_Reset_m4DA4F2A39B4E328565A232CEE0F85115BC702E7D (void);
+// 0x00000075 System.Object Wave.Essence.Interaction.Mode.Demo.CubeEventHandler/<TrackPointer>d__20::System.Collections.IEnumerator.get_Current()
+extern void U3CTrackPointerU3Ed__20_System_Collections_IEnumerator_get_Current_mF41E8974485BBD1B583F57099299098312329B3A (void);
+// 0x00000076 System.Void Wave.Essence.Interaction.Mode.Demo.DropdownHandler::DEBUG(System.String)
+extern void DropdownHandler_DEBUG_mF903F735C9FB05FE61720D7E30CA95C40BB9985B (void);
+// 0x00000077 System.Void Wave.Essence.Interaction.Mode.Demo.DropdownHandler::UpdatePinchStrength(System.Int32)
+extern void DropdownHandler_UpdatePinchStrength_mAF3C3A9E86FD79B8FCBDEA68D520BFA571BCA915 (void);
+// 0x00000078 System.Void Wave.Essence.Interaction.Mode.Demo.DropdownHandler::DropdownValueChanged(UnityEngine.UI.Dropdown)
+extern void DropdownHandler_DropdownValueChanged_m5356B0CB355A8CC178D6B532FC2DD0B49BD7419F (void);
+// 0x00000079 System.Void Wave.Essence.Interaction.Mode.Demo.DropdownHandler::Start()
+extern void DropdownHandler_Start_m26727926317A5F382EC2DCE25BB70CE2473EF84A (void);
+// 0x0000007A System.Void Wave.Essence.Interaction.Mode.Demo.DropdownHandler::FixedUpdate()
+extern void DropdownHandler_FixedUpdate_m4880CA099F0B1605B5608392C310DF3519B7F0D2 (void);
+// 0x0000007B System.Void Wave.Essence.Interaction.Mode.Demo.DropdownHandler::Update()
+extern void DropdownHandler_Update_mB3D35F92AA68325DE77C70B9E6EED40F1797F131 (void);
+// 0x0000007C System.Void Wave.Essence.Interaction.Mode.Demo.DropdownHandler::ChangeColor()
+extern void DropdownHandler_ChangeColor_mA7918E60D0239B34295B32656C29AE91AE6FDE57 (void);
+// 0x0000007D System.Void Wave.Essence.Interaction.Mode.Demo.DropdownHandler::.ctor()
+extern void DropdownHandler__ctor_m40728DDC998B9ED5F74770E05EEA2F481EC50003 (void);
+// 0x0000007E System.Void Wave.Essence.Interaction.Mode.Demo.DropdownHandler::<Start>b__9_0(System.Int32)
+extern void DropdownHandler_U3CStartU3Eb__9_0_mD4CA6240D44C149EFEC6B572DAAA0585C68F61C1 (void);
+// 0x0000007F System.Void Wave.Essence.Interaction.Mode.Demo.HandInformation::Update()
+extern void HandInformation_Update_m6D292A8DAD3AFEE34E73D042FA9803AB453AD326 (void);
+// 0x00000080 System.Void Wave.Essence.Interaction.Mode.Demo.HandInformation::.ctor()
+extern void HandInformation__ctor_mCF7169899506A4A2344B4005E8A0A3B86B7BC0D1 (void);
+// 0x00000081 System.Void Wave.Essence.Interaction.Mode.Demo.HandPanelCanvas::Start()
+extern void HandPanelCanvas_Start_m5B4EEC23CB0D8AA4CEF728F6A02805BBEFCEF76D (void);
+// 0x00000082 System.Void Wave.Essence.Interaction.Mode.Demo.HandPanelCanvas::Update()
+extern void HandPanelCanvas_Update_m82A06BF02162C9F95EA1B2348FC2CF9966DE93D7 (void);
+// 0x00000083 System.Void Wave.Essence.Interaction.Mode.Demo.HandPanelCanvas::.ctor()
+extern void HandPanelCanvas__ctor_mC94FD82105B4A9FA6CE98F068EF9CAC485F633F6 (void);
+// 0x00000084 System.Void Wave.Essence.Interaction.Mode.Demo.InteractionModeButton::DEBUG(System.String)
+extern void InteractionModeButton_DEBUG_m5A4673F0C469860F0725894E36824D85D77DBC9D (void);
+// 0x00000085 System.Void Wave.Essence.Interaction.Mode.Demo.InteractionModeButton::GazeMode()
+extern void InteractionModeButton_GazeMode_mF4E3CB9BE8465475672825F640BEA9AC37555A42 (void);
+// 0x00000086 System.Void Wave.Essence.Interaction.Mode.Demo.InteractionModeButton::ControllerMode()
+extern void InteractionModeButton_ControllerMode_mDB307393F4968D92F3AD4295CBFC393C7B01487F (void);
+// 0x00000087 System.Void Wave.Essence.Interaction.Mode.Demo.InteractionModeButton::HandMode()
+extern void InteractionModeButton_HandMode_m7C892C97396C5B6A606CB05CF18CA18E38A35460 (void);
+// 0x00000088 System.Void Wave.Essence.Interaction.Mode.Demo.InteractionModeButton::.ctor()
+extern void InteractionModeButton__ctor_m6DFB4E66F8BD34723C89873E0AAAD429B67D9314 (void);
+// 0x00000089 System.Void Wave.Essence.Interaction.Mode.Demo.InteractionModeText::Awake()
+extern void InteractionModeText_Awake_mF0C5348C690CCF378A27AA4782DDFAF13BC0D509 (void);
+// 0x0000008A System.Void Wave.Essence.Interaction.Mode.Demo.InteractionModeText::Update()
+extern void InteractionModeText_Update_m816635036B2E15907AD2EB9A9B60A8AA8824C06A (void);
+// 0x0000008B System.Void Wave.Essence.Interaction.Mode.Demo.InteractionModeText::.ctor()
+extern void InteractionModeText__ctor_m81F8626E3CA0DFACA84E6910597048979180BE6B (void);
+// 0x0000008C System.Void Wave.Essence.Interaction.Mode.Demo.PoseValidText::Start()
+extern void PoseValidText_Start_mFD3D63AA6C61FA4A3A9F3D0B78D11305047A7172 (void);
+// 0x0000008D System.Void Wave.Essence.Interaction.Mode.Demo.PoseValidText::Update()
+extern void PoseValidText_Update_mBA413A146C3B86428E0F1CAE48CF99CE225E7264 (void);
+// 0x0000008E System.Void Wave.Essence.Interaction.Mode.Demo.PoseValidText::.ctor()
+extern void PoseValidText__ctor_m8DD27CA883DC3434813DF02181A0F219C6339138 (void);
+static Il2CppMethodPointer s_methodPointers[142] = 
+{
+	InteractionModeManager_DEBUG_m9D5363FF1E3AB0677E27EACE4AFC78047DC79B98,
+	InteractionModeManager_INFO_mD977BBEC57CAFA0BCAA15070268959146BCD4E8C,
+	InteractionModeManager_get_EyeTracking_m19018401ABD7FF23E5B5402FE3BB22CFB6E1040B,
+	InteractionModeManager_set_EyeTracking_m0DF9F9D177B822F1C799DFF414AB693B8C199EE2,
+	InteractionModeManager_get_Movable_m77093AF13A4144D10A6B0B708CF7A64F14BA693F,
+	InteractionModeManager_set_Movable_m8E818FE76A2EDBDF87DC9D75BBC261E852DFA0CD,
+	InteractionModeManager_get_InputEvent_m6F4D0B704D9D542353FAB6CA700C6FD28445BD00,
+	InteractionModeManager_set_InputEvent_mB9D73E57E35CEA63E362CD9D2BB75F38543E3C4F,
+	InteractionModeManager_get_TimerControl_m954AB6C81E857A4BC6E44B769E2EC7058D4FAF74,
+	InteractionModeManager_set_TimerControl_mF216A70C09266FE1FF41F109D48DED77DACDA85A,
+	InteractionModeManager_get_TimeToGaze_m92BC1D7CD588E423378FE5C2E002BD3F6DA17017,
+	InteractionModeManager_set_TimeToGaze_m2C3E1FC62E45D80FFEF0139C537A1910B2E192ED,
+	InteractionModeManager_get_ButtonControl_m734FCE63A156824243E039BE8E34AAE040FCF2A8,
+	InteractionModeManager_set_ButtonControl_m593579A7B6EA968675F18D5913F4730D31801FD4,
+	InteractionModeManager_get_ButtonControlDevices_m65EF66A0481DB9FE6B5D51996F01CC4DBBD73903,
+	InteractionModeManager_set_ButtonControlDevices_m52B21E89C77B3D5CFF977808F2EE791D2984EF20,
+	InteractionModeManager_get_ButtonControlKeys_m6E40C1D6188D846FCE03428C8038FE2DD8910DB1,
+	InteractionModeManager_set_ButtonControlKeys_m5393A95EB06656EC995E7D997D8A878496AF7D73,
+	InteractionModeManager_get_EnableEyeTracking_m62B34BA3F4F4F0FD176A9147A1207773BA3612B1,
+	InteractionModeManager_set_EnableEyeTracking_m4DCDC652D854ED9157E755428A0888D9A7A6C1F5,
+	InteractionModeManager_get_LocationSpace_mD1499EEF98ACA78B19B9F13DB61F5E575D98D294,
+	InteractionModeManager_set_LocationSpace_m729DD68C1C9D80EF653C6BB16F4C63830E88AD9E,
+	InteractionModeManager_get_BeamMode_m219272183A0377289EF920A17CE487E26B6EF882,
+	InteractionModeManager_set_BeamMode_m771D144C2F7FADF262B99283903DD135CA05AF8A,
+	InteractionModeManager_get_DominantEvent_m5CD2FF1AE002263BDA6595115C1552B37BEE8DD3,
+	InteractionModeManager_set_DominantEvent_m4B1262B80B5ABA57C6746435D25947211C82E582,
+	InteractionModeManager_get_DominantRaycastMask_mB26D642956AE1F2B4B7C3A149A6C11C0DFA9F83E,
+	InteractionModeManager_set_DominantRaycastMask_mE759D41B529C0C6CEF3C8BA9369A83A2ADD24B98,
+	InteractionModeManager_get_NonDominantEvent_m8775FF1282E0BF3612C2A3895B87F64BE1F92D45,
+	InteractionModeManager_set_NonDominantEvent_m2CB94329D980AE3D1D5B10F4113B464CA5809521,
+	InteractionModeManager_get_NonDominantRaycastMask_m66F5A120D254FCF9F041FC2383B0EA76BBEB4273,
+	InteractionModeManager_set_NonDominantRaycastMask_m46BD1B1144AF755535BC5CBD8FADCFCEFA950671,
+	InteractionModeManager_get_ButtonToTrigger_m4526A3BA003F42C5C1B81A036098581221964965,
+	InteractionModeManager_set_ButtonToTrigger_m44ADB41804A92A3BE3E587DAD31A431068C1DB55,
+	InteractionModeManager_get_FixedBeamLength_m9769C8767885132DA91E8D4C7D357F5CED00C1A1,
+	InteractionModeManager_set_FixedBeamLength_m7F6325E5407D0FBA460B021275220DBD3C362195,
+	InteractionModeManager_get_DominantController_mD41A521E21DB5EE616D0EA259CEAA69EBA4E8E2B,
+	InteractionModeManager_set_DominantController_mDCEB65BF8E7FC805158CF439BD8D76BBF2998CE3,
+	InteractionModeManager_get_NonDominantController_mE6D9389B216F5BEBAF83904D7E5F3122DF795FD9,
+	InteractionModeManager_set_NonDominantController_m46D6B6CB42DB36AAC896B13A008D3131923E689C,
+	InteractionModeManager_get_RightHandSelector_mE634EE754C9722CE7D8184FBC03CF3B4DF5DD7E0,
+	InteractionModeManager_set_RightHandSelector_m26E7CCC5FBCD1137BB5502BFF8D4027AC537AA30,
+	InteractionModeManager_get_LeftHandSelector_m7523DAE5871D99D72885976589C94E67512449A7,
+	InteractionModeManager_set_LeftHandSelector_m86BD3A0BA84830E458D217790120209710C32636,
+	InteractionModeManager_get_UseDefaultPinch_m60205EEBFD18B906D8E866C25CA3F4E62479AA69,
+	InteractionModeManager_set_UseDefaultPinch_mFA1C067984F1161B2BDA2C8BFAABA3852BD99D74,
+	InteractionModeManager_get_PinchOnThreshold_m316707E6B607918E65E38F3713445424C5E35086,
+	InteractionModeManager_set_PinchOnThreshold_m5D94A6977AEDB0CF17B9CF17C1F46CC5A8C3B102,
+	InteractionModeManager_get_PinchOffThreshold_m9A85B11D51D3EDF2B5DB69816560A93673DB0582,
+	InteractionModeManager_set_PinchOffThreshold_m413E95B746BCFF610384C35587AC40B525E170BF,
+	InteractionModeManager_get_PinchTimeToDrag_m0695D477711419811ADA7D3F98BF1F70C82719E1,
+	InteractionModeManager_set_PinchTimeToDrag_mFB63E7541D007313EC4F155C1DD4FD8F66F97A51,
+	InteractionModeManager_get_PriorTracker_mBF954C9EEFE76DC23530AED2D671820751A13BA0,
+	InteractionModeManager_set_PriorTracker_m8061F9C7B0E00240BC95372F654B3720E135D8CB,
+	InteractionModeManager_get_InitialStartNaturalHand_m9326066AA549EE87DDDD26DBAE9B022464E98547,
+	InteractionModeManager_set_InitialStartNaturalHand_m0F42B628AE7E42769FB8239FA8C00A561AB7C976,
+	InteractionModeManager_get_InitialStartElectronicHand_m168A908ADD3283A899F5E703237ED66468D57D1A,
+	InteractionModeManager_set_InitialStartElectronicHand_m1DF16B35291C469257B80F718E91DE9DB6285400,
+	InteractionModeManager_get_ElectronicHandModel_mE10EA6DA0C2E63FFA70E1808B0B7160082744C1E,
+	InteractionModeManager_set_ElectronicHandModel_m87C74ACB3FE4B374196C631B250A2383DFDAB00D,
+	InteractionModeManager_get_ShowElectronicHandIfSupported_mDB4F87A960C678132A90709665F394CBB33EF217,
+	InteractionModeManager_set_ShowElectronicHandIfSupported_m522F75B0DF0F9EA25EE9D907230BD45C4035A0AC,
+	InteractionModeManager_get_Instance_m49E841F2C82EA2BDDECDF57091FEA39AAD09A7B0,
+	InteractionModeManager_Awake_mE22AADCBD5DFC7568E21B291D2B8F8122E5F66DA,
+	InteractionModeManager_OnEnable_m95919EA7F90C13BC2049EEDAA18A8205C118A38D,
+	InteractionModeManager_OnDisable_mD6308C6CF8E9767D76334314340321691CF5BC50,
+	InteractionModeManager_Update_m5791D9E269F3788DD8BC88CD200427FF4069B351,
+	InteractionModeManager_NotifyInteractionManagerExistToAll_m3592FAEA4E9484B81C6E75BDCF1F201E3173BCB1,
+	InteractionModeManager_CheckEventSystem_mE519A6853B66E3D7E355976DF928E4EB9D35688D,
+	InteractionModeManager_UpdateCurrentMode_m449F6311D4F9E24E7B9BE528319C97C9BBE3C765,
+	InteractionModeManager_AddInputModule_mC74EC25DC890AEA0EF1CE6A02C06D472C082174B,
+	InteractionModeManager_EnableGazeInputModule_m5F72CC82EA4DCA4133C122CB98252A9B96BDC63D,
+	InteractionModeManager_DisableGazeInputModule_mFA858AC8494380BF1A51FE22945682754ADFECFA,
+	InteractionModeManager_EnableControllerInputModule_m34416B2ABF8475BC2EA3988D0C089FCE056205F7,
+	InteractionModeManager_CreateController_m8A9D74C9C56D53204CB77ED2CDE484CAE6297802,
+	InteractionModeManager_DisableControllerInputModule_m8C2EBB258E2253795C0D763407EE27931E7C7016,
+	InteractionModeManager_EnableHandInputModule_mFBF7846CA824B42E9622AE32600312B7F3D8E5B3,
+	InteractionModeManager_CreateHandModel_m709249C37408D6D4EED6FEEE3209C4CC14717AA3,
+	InteractionModeManager_CreateHandSelector_m2F4BB6C5020B8C62D6DA56F312088946503A7080,
+	InteractionModeManager_DisableHandInputModule_m89D511BC4468784585D8DEA9ADB74A5A904FB32A,
+	InteractionModeManager__ctor_m6E22139ACB452B0C448E3896D7C01A6C767EFE8E,
+	ControllerPoseModeTest_DEBUG_m6491D4E9B0E7B996656CEDFD40A8803DA64AB86A,
+	ControllerPoseModeTest_get_Controller_mD42899DC3950A8E6A4D6EB31A968C3DD9FD698CD,
+	ControllerPoseModeTest_set_Controller_m6CBADF7A4AA42AC66C72333BFF084F68B412CC05,
+	ControllerPoseModeTest_get_ModeText_m9CAC557AF7309B2727AF2772A52C31346ADFDA54,
+	ControllerPoseModeTest_set_ModeText_m5A494F6B9CD014C8524AD1DFD43AA29BBC0F7FC3,
+	ControllerPoseModeTest_Start_m17C333EBD85935C5178DF122FF804E152C0C7B59,
+	ControllerPoseModeTest_Update_m8468E76527723231FE6387A0F1CFBA0863ABC184,
+	ControllerPoseModeTest_SetTriggerMode_m6693A559A63612363012FD5DFAF6710CE70A620A,
+	ControllerPoseModeTest_SetPanelMode_mB27CF0709C1F0AAFA5FDE1DF01162AF18462497A,
+	ControllerPoseModeTest_SetHandleMode_m5FFEE4E180FA556DE66669AAEB73C90B4B73DBF6,
+	ControllerPoseModeTest__ctor_m35A72207302CD5BA4634B9D9F069032F5DCF76BF,
+	CubeEventHandler_DEBUG_m60A9C9B22A994B2120FF9DD78D473AA4EE523349,
+	CubeEventHandler_OnEnable_mAE29002B4009F6C06957F1BF11341D4C87741D0B,
+	CubeEventHandler_TeleportRandomly_mFC57B67794E46821671A9247922A5A6A21AC650E,
+	CubeEventHandler_OnPointerEnter_m24A7617575E98326C9A5024425DC1DA1D64FA836,
+	CubeEventHandler_OnPointerExit_mDAE24E88AB1C45BEBBE1255F17441E94061E3C26,
+	CubeEventHandler_OnPointerDown_m3B985D48FF294BE4C83FE5A620F438BABA9EFCA8,
+	CubeEventHandler_OnPointerUp_mA477BD246262AFB0420EBCCF861A28BE099CC0D4,
+	CubeEventHandler_OnBeginDrag_m6C384E4F2C35AA92CEFC46BC455FFA9C9100B134,
+	CubeEventHandler_OnDrag_m5CC25998D0D87AF49495D79FA237343D20900B6B,
+	CubeEventHandler_OnEndDrag_mD94773B4D68528D77B657158227CA4C3F61DC3FD,
+	CubeEventHandler_OnDrop_m8DC25DE45AE04BB31715CB6F1AF68D98AAF929AD,
+	CubeEventHandler_Rotate_mF69B54B41376AB0FC88850E8D442C96DBB048398,
+	CubeEventHandler_OnHover_m1545A3E986B0E9A2DD01E42C050067D70917C64F,
+	CubeEventHandler_OnPointerClick_mC83B59B81A4DD2706DD8A55D7BC8D55E68267D16,
+	CubeEventHandler_TrackPointer_mD24D1079E3D8A84B0D8F63F55DCEF8E8738313F6,
+	CubeEventHandler_OnShowCube_m903ED76112879F8EA438CE9D33ACC3DD237B88F7,
+	CubeEventHandler_OnHideCube_m5AE397B23C38EE58C26ACF5AC80BBA17F065D9F1,
+	CubeEventHandler_OnTrigger_mF7A6A10FDA0E1902EEB6892965F65081EF47C3D1,
+	CubeEventHandler__ctor_m28A33DF6854A4CC2C960949822FABCC621B7261C,
+	U3CTrackPointerU3Ed__20__ctor_m2C16A90CAC2C3FA47BD01F0A0774D82102752FBF,
+	U3CTrackPointerU3Ed__20_System_IDisposable_Dispose_m22F1BA28631F830D02BC5913158D36113C954191,
+	U3CTrackPointerU3Ed__20_MoveNext_m87484FFFCDF309031EF84163FB17D42B34117FFA,
+	U3CTrackPointerU3Ed__20_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mFB07ECA8478B7B7ADC3872AE22CB5D90ABF16711,
+	U3CTrackPointerU3Ed__20_System_Collections_IEnumerator_Reset_m4DA4F2A39B4E328565A232CEE0F85115BC702E7D,
+	U3CTrackPointerU3Ed__20_System_Collections_IEnumerator_get_Current_mF41E8974485BBD1B583F57099299098312329B3A,
+	DropdownHandler_DEBUG_mF903F735C9FB05FE61720D7E30CA95C40BB9985B,
+	DropdownHandler_UpdatePinchStrength_mAF3C3A9E86FD79B8FCBDEA68D520BFA571BCA915,
+	DropdownHandler_DropdownValueChanged_m5356B0CB355A8CC178D6B532FC2DD0B49BD7419F,
+	DropdownHandler_Start_m26727926317A5F382EC2DCE25BB70CE2473EF84A,
+	DropdownHandler_FixedUpdate_m4880CA099F0B1605B5608392C310DF3519B7F0D2,
+	DropdownHandler_Update_mB3D35F92AA68325DE77C70B9E6EED40F1797F131,
+	DropdownHandler_ChangeColor_mA7918E60D0239B34295B32656C29AE91AE6FDE57,
+	DropdownHandler__ctor_m40728DDC998B9ED5F74770E05EEA2F481EC50003,
+	DropdownHandler_U3CStartU3Eb__9_0_mD4CA6240D44C149EFEC6B572DAAA0585C68F61C1,
+	HandInformation_Update_m6D292A8DAD3AFEE34E73D042FA9803AB453AD326,
+	HandInformation__ctor_mCF7169899506A4A2344B4005E8A0A3B86B7BC0D1,
+	HandPanelCanvas_Start_m5B4EEC23CB0D8AA4CEF728F6A02805BBEFCEF76D,
+	HandPanelCanvas_Update_m82A06BF02162C9F95EA1B2348FC2CF9966DE93D7,
+	HandPanelCanvas__ctor_mC94FD82105B4A9FA6CE98F068EF9CAC485F633F6,
+	InteractionModeButton_DEBUG_m5A4673F0C469860F0725894E36824D85D77DBC9D,
+	InteractionModeButton_GazeMode_mF4E3CB9BE8465475672825F640BEA9AC37555A42,
+	InteractionModeButton_ControllerMode_mDB307393F4968D92F3AD4295CBFC393C7B01487F,
+	InteractionModeButton_HandMode_m7C892C97396C5B6A606CB05CF18CA18E38A35460,
+	InteractionModeButton__ctor_m6DFB4E66F8BD34723C89873E0AAAD429B67D9314,
+	InteractionModeText_Awake_mF0C5348C690CCF378A27AA4782DDFAF13BC0D509,
+	InteractionModeText_Update_m816635036B2E15907AD2EB9A9B60A8AA8824C06A,
+	InteractionModeText__ctor_m81F8626E3CA0DFACA84E6910597048979180BE6B,
+	PoseValidText_Start_mFD3D63AA6C61FA4A3A9F3D0B78D11305047A7172,
+	PoseValidText_Update_mBA413A146C3B86428E0F1CAE48CF99CE225E7264,
+	PoseValidText__ctor_m8DD27CA883DC3434813DF02181A0F219C6339138,
+};
+static const int32_t s_InvokerIndices[142] = 
+{
+	5249,
+	5249,
+	6322,
+	5141,
+	6322,
+	5141,
+	6398,
+	5218,
+	6322,
+	5141,
+	6482,
+	5290,
+	6322,
+	5141,
+	6433,
+	5249,
+	6433,
+	5249,
+	6322,
+	5141,
+	6536,
+	5334,
+	6398,
+	5218,
+	6322,
+	5141,
+	6409,
+	5228,
+	6322,
+	5141,
+	6409,
+	5228,
+	6433,
+	5249,
+	6482,
+	5290,
+	6433,
+	5249,
+	6433,
+	5249,
+	6433,
+	5249,
+	6433,
+	5249,
+	6322,
+	5141,
+	6482,
+	5290,
+	6482,
+	5290,
+	6482,
+	5290,
+	6398,
+	5218,
+	6322,
+	5141,
+	6322,
+	5141,
+	6398,
+	5218,
+	6322,
+	5141,
+	9791,
+	6551,
+	6551,
+	6551,
+	6551,
+	6551,
+	6551,
+	6551,
+	5218,
+	6551,
+	6551,
+	6551,
+	5218,
+	6551,
+	6551,
+	5218,
+	5218,
+	6551,
+	6551,
+	5249,
+	6398,
+	5218,
+	6433,
+	5249,
+	6551,
+	6551,
+	6551,
+	6551,
+	6551,
+	6551,
+	5249,
+	6551,
+	6551,
+	5249,
+	5249,
+	5249,
+	5249,
+	5249,
+	5249,
+	5249,
+	5249,
+	6551,
+	5249,
+	5249,
+	6433,
+	6551,
+	6551,
+	6551,
+	6551,
+	5218,
+	6551,
+	6322,
+	6433,
+	6551,
+	6433,
+	5249,
+	5218,
+	5249,
+	6551,
+	6551,
+	6551,
+	6551,
+	6551,
+	5218,
+	6551,
+	6551,
+	6551,
+	6551,
+	6551,
+	5249,
+	6551,
+	6551,
+	6551,
+	6551,
+	6551,
+	6551,
+	6551,
+	6551,
+	6551,
+	6551,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Wave_Essence_Interaction_Mode_CodeGenModule;
+const Il2CppCodeGenModule g_Wave_Essence_Interaction_Mode_CodeGenModule = 
+{
+	"Wave.Essence.Interaction.Mode.dll",
+	142,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};
