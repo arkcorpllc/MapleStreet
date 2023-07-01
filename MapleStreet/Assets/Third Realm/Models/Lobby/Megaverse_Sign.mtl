@@ -1,0 +1,90 @@
+newmtl Material.001
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Megaverse_Sign_Megaverse_Sign_Albedo.png
+map_bump Megaverse_Sign_Megaverse_Sign_Normal.png
+newmtl Material.003
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Megaverse_Sign_Megaverse_Sign_Albedo.png
+map_bump Megaverse_Sign_Megaverse_Sign_Normal.png
+newmtl Material.004
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Megaverse_Sign_Megaverse_Sign_Albedo.png
+map_bump Megaverse_Sign_Megaverse_Sign_Normal.png
+newmtl Green_Color
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Megaverse_Sign_Megaverse_Sign_Albedo.png
+map_bump Megaverse_Sign_Megaverse_Sign_Normal.png
+newmtl Material.005
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Megaverse_Sign_Megaverse_Sign_Albedo.png
+map_bump Megaverse_Sign_Megaverse_Sign_Normal.png
+newmtl Material.006
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Megaverse_Sign_Megaverse_Sign_Albedo.png
+map_bump Megaverse_Sign_Megaverse_Sign_Normal.png
+newmtl Material.007
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Megaverse_Sign_Megaverse_Sign_Albedo.png
+map_bump Megaverse_Sign_Megaverse_Sign_Normal.png
+newmtl Material.008
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Megaverse_Sign_Megaverse_Sign_Albedo.png
+map_bump Megaverse_Sign_Megaverse_Sign_Normal.png
+newmtl Black
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Megaverse_Sign_Megaverse_Sign_Albedo.png
+map_bump Megaverse_Sign_Megaverse_Sign_Normal.png
