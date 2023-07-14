@@ -22,7 +22,7 @@ Material:
     m_TexEnvs:
     - _Albedo:
         m_Texture: {fileID: 2800000, guid: 850e33b823186d14caed438921d83061, type: 3}
-        m_Scale: {x: 4, y: 4}
+        m_Scale: {x: 8, y: 4}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 0}
@@ -46,7 +46,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _Height:
         m_Texture: {fileID: 2800000, guid: bcb9d2cf83911dc40bee894c86e033b2, type: 3}
-        m_Scale: {x: 4, y: 4}
+        m_Scale: {x: 8, y: 4}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
@@ -54,7 +54,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _Mask:
         m_Texture: {fileID: 2800000, guid: 6211793d8e17cf644b64a3696b4d4a0f, type: 3}
-        m_Scale: {x: 4, y: 4}
+        m_Scale: {x: 8, y: 4}
         m_Offset: {x: 0, y: 0}
     - _Metallic:
         m_Texture: {fileID: 2800000, guid: a668120413a43aa4180eee7d369bd17b, type: 3}
@@ -66,7 +66,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _Normal:
         m_Texture: {fileID: 2800000, guid: 7f435055192a17944afd93f2b6676165, type: 3}
-        m_Scale: {x: 4, y: 4}
+        m_Scale: {x: 8, y: 4}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 0}
@@ -78,7 +78,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _Specular:
         m_Texture: {fileID: 2800000, guid: 850e33b823186d14caed438921d83061, type: 3}
-        m_Scale: {x: 4, y: 4}
+        m_Scale: {x: 8, y: 4}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
         m_Texture: {fileID: 0}
