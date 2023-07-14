@@ -8,8 +8,17 @@ public class LineRendererManager : MonoBehaviour
     public Material lineMaterial;
     public float lineWidth = 0.2f;
 
+    private List<GameObject> lineObjects = new List<GameObject>();
+
     private void Start()
     {
+        GenerateLines();
+    }
+
+    public void GenerateLines()
+    {
+        DeleteLines();
+
         Transform[] childTransforms = GetComponentsInChildren<Transform>();
         List<Transform> pollGroupTransforms = new List<Transform>();
 
@@ -89,8 +98,19 @@ public class LineRendererManager : MonoBehaviour
                 // Set the line width
                 lineRenderer.startWidth = lineWidth;
                 lineRenderer.endWidth = lineWidth;
+
+                lineObjects.Add(lineObject);
             }
         }
+    }
+
+    void DeleteLines()
+    {
+        foreach (GameObject lineObject in lineObjects)
+        {
+            Destroy(lineObject);
+        }
+        lineObjects.Clear();
     }
 
     Vector3 CalculatePointOnCurve(Vector3 p0, Vector3 p1, Vector3 p2, float t)
