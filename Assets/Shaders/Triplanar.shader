@@ -99,7 +99,7 @@ Shader "Triplanar"
 			o.Albedo = ( _Color * triplanar18 ).rgb;
 			float4 triplanar24 = TriplanarSampling24( _Metallic, temp_output_22_0, ase_worldNormal, 1.0, float2( 1,1 ), 1.0, 0 );
 			o.Metallic = triplanar24.x;
-			o.Occlusion = _Smoothness;
+			o.Smoothness = _Smoothness;
 			o.Alpha = 1;
 		}
 
@@ -186,25 +186,25 @@ Shader "Triplanar"
 }
 /*ASEBEGIN
 Version=19108
-Node;AmplifyShaderEditor.TexturePropertyNode;2;-1104,128;Inherit;True;Property;_Normal;Normal;3;0;Create;True;0;0;0;False;0;False;None;19af84b9951ae014a80b0a4d5fc64663;True;white;Auto;Texture2D;-1;0;2;SAMPLER2D;0;SAMPLERSTATE;1
-Node;AmplifyShaderEditor.TexturePropertyNode;3;-1104,384;Inherit;True;Property;_Metallic;Metallic;5;0;Create;True;0;0;0;False;0;False;None;a668120413a43aa4180eee7d369bd17b;False;white;Auto;Texture2D;-1;0;2;SAMPLER2D;0;SAMPLERSTATE;1
-Node;AmplifyShaderEditor.TexturePropertyNode;1;-1104,-128;Inherit;True;Property;_Albedo;Albedo;2;0;Create;True;0;0;0;False;0;False;None;0dcf398cbb5fdb549a36fea109347268;False;white;Auto;Texture2D;-1;0;2;SAMPLER2D;0;SAMPLERSTATE;1
+Node;AmplifyShaderEditor.TexturePropertyNode;2;-1104,128;Inherit;True;Property;_Normal;Normal;3;0;Create;True;0;0;0;False;0;False;None;527ffc9f9dee8024aaeb95e82f63e21f;False;white;Auto;Texture2D;-1;0;2;SAMPLER2D;0;SAMPLERSTATE;1
+Node;AmplifyShaderEditor.TexturePropertyNode;3;-1104,384;Inherit;True;Property;_Metallic;Metallic;5;0;Create;True;0;0;0;False;0;False;None;None;False;white;Auto;Texture2D;-1;0;2;SAMPLER2D;0;SAMPLERSTATE;1
+Node;AmplifyShaderEditor.TexturePropertyNode;1;-1104,-128;Inherit;True;Property;_Albedo;Albedo;2;0;Create;True;0;0;0;False;0;False;None;5aabc4de45790834b872f9b23f807de6;False;white;Auto;Texture2D;-1;0;2;SAMPLER2D;0;SAMPLERSTATE;1
 Node;AmplifyShaderEditor.StandardSurfaceOutputNode;0;128,-128;Float;False;True;-1;2;ASEMaterialInspector;0;0;Standard;Triplanar;False;False;False;False;False;False;False;False;False;False;False;False;False;False;True;False;False;False;False;False;False;Back;0;False;;0;False;;False;0;False;;0;False;;False;0;Custom;0.5;True;True;0;True;Transparent;;Overlay;All;12;all;True;True;True;True;0;False;;False;0;False;;255;False;;255;False;;0;False;;0;False;;0;False;;0;False;;0;False;;0;False;;0;False;;0;False;;False;2;15;10;25;False;0.5;True;2;5;False;;10;False;;0;0;False;;0;False;;0;False;;0;False;;0;False;0;0,0,0,0;VertexOffset;True;False;Cylindrical;False;True;Relative;0;;0;-1;-1;-1;0;False;0;0;False;;-1;0;False;;0;0;0;False;0.1;False;;0;False;;False;16;0;FLOAT3;0,0,0;False;1;FLOAT3;0,0,0;False;2;FLOAT3;0,0,0;False;3;FLOAT;0;False;4;FLOAT;0;False;5;FLOAT;0;False;6;FLOAT3;0,0,0;False;7;FLOAT3;0,0,0;False;8;FLOAT;0;False;9;FLOAT;0;False;10;FLOAT;0;False;13;FLOAT3;0,0,0;False;11;FLOAT3;0,0,0;False;12;FLOAT3;0,0,0;False;14;FLOAT4;0,0,0,0;False;15;FLOAT3;0,0,0;False;0
 Node;AmplifyShaderEditor.TriplanarNode;23;-752,128;Inherit;True;Spherical;World;False;Top Texture 1;_TopTexture1;white;-1;None;Mid Texture 1;_MidTexture1;white;-1;None;Bot Texture 1;_BotTexture1;white;-1;None;Triplanar Sampler;Tangent;10;0;SAMPLER2D;;False;5;FLOAT;1;False;1;SAMPLER2D;;False;6;FLOAT;0;False;2;SAMPLER2D;;False;7;FLOAT;0;False;9;FLOAT3;0,0,0;False;8;FLOAT;1;False;3;FLOAT2;1,1;False;4;FLOAT;1;False;5;FLOAT4;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.TriplanarNode;24;-768,384;Inherit;True;Spherical;World;False;Top Texture 2;_TopTexture2;white;-1;None;Mid Texture 2;_MidTexture2;white;-1;None;Bot Texture 2;_BotTexture2;white;-1;None;Triplanar Sampler;Tangent;10;0;SAMPLER2D;;False;5;FLOAT;1;False;1;SAMPLER2D;;False;6;FLOAT;0;False;2;SAMPLER2D;;False;7;FLOAT;0;False;9;FLOAT3;0,0,0;False;8;FLOAT;1;False;3;FLOAT2;1,1;False;4;FLOAT;1;False;5;FLOAT4;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
-Node;AmplifyShaderEditor.RangedFloatNode;20;-1200,-400;Inherit;False;Property;_Scale;Scale;7;0;Create;True;0;0;0;False;0;False;0;0.2;0;0;0;1;FLOAT;0
+Node;AmplifyShaderEditor.RangedFloatNode;20;-1200,-400;Inherit;False;Property;_Scale;Scale;7;0;Create;True;0;0;0;False;0;False;0;0.5;0;0;0;1;FLOAT;0
 Node;AmplifyShaderEditor.WorldPosInputsNode;21;-1232,-320;Inherit;False;0;4;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;22;-1024,-384;Inherit;False;2;2;0;FLOAT3;0,0,0;False;1;FLOAT;0;False;1;FLOAT3;0
 Node;AmplifyShaderEditor.UnpackScaleNormalNode;26;-252.8398,-16.20856;Inherit;False;Tangent;2;0;FLOAT4;0,0,0,0;False;1;FLOAT;1;False;4;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3
-Node;AmplifyShaderEditor.RangedFloatNode;25;-184.8339,371.9905;Inherit;False;Property;_Smoothness;Smoothness;6;0;Create;True;0;0;0;False;0;False;0;1;0;0;0;1;FLOAT;0
+Node;AmplifyShaderEditor.RangedFloatNode;25;-184.8339,371.9905;Inherit;False;Property;_Smoothness;Smoothness;6;0;Create;True;0;0;0;False;0;False;0;0;0;0;0;1;FLOAT;0
 Node;AmplifyShaderEditor.RangedFloatNode;27;-528,304;Inherit;False;Property;_NormalIntensity;Normal Intensity;4;0;Create;True;0;0;0;False;0;False;0;0.25;0;0;0;1;FLOAT;0
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;29;-242.0642,-278.7609;Inherit;False;2;2;0;COLOR;0,0,0,0;False;1;FLOAT4;0,0,0,0;False;1;COLOR;0
 Node;AmplifyShaderEditor.TriplanarNode;18;-752,-112;Inherit;True;Spherical;World;False;Top Texture 0;_TopTexture0;white;-1;None;Mid Texture 0;_MidTexture0;white;-1;None;Bot Texture 0;_BotTexture0;white;-1;None;Triplanar Sampler;Tangent;10;0;SAMPLER2D;;False;5;FLOAT;1;False;1;SAMPLER2D;;False;6;FLOAT;0;False;2;SAMPLER2D;;False;7;FLOAT;0;False;9;FLOAT3;0,0,0;False;8;FLOAT;1;False;3;FLOAT2;1,1;False;4;FLOAT;1;False;5;FLOAT4;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
-Node;AmplifyShaderEditor.ColorNode;28;-592,-336;Inherit;False;Property;_Color;Color;1;0;Create;True;0;0;0;False;0;False;0,0,0,0;0,0,0,0;True;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
+Node;AmplifyShaderEditor.ColorNode;28;-592,-336;Inherit;False;Property;_Color;Color;1;0;Create;True;0;0;0;False;0;False;0,0,0,0;1,1,1,1;True;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 WireConnection;0;0;29;0
 WireConnection;0;1;26;0
 WireConnection;0;3;24;0
-WireConnection;0;5;25;0
+WireConnection;0;4;25;0
 WireConnection;23;0;2;0
 WireConnection;23;9;22;0
 WireConnection;24;0;3;0
@@ -218,4 +218,4 @@ WireConnection;29;1;18;0
 WireConnection;18;0;1;0
 WireConnection;18;9;22;0
 ASEEND*/
-//CHKSM=7F39953E1DB43362B12C488E25714A315519E32E
+//CHKSM=A1B4585D4A5DE3265A5D0C1A2CDC7F20BEB8543E

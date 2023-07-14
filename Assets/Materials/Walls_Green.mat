@@ -98,11 +98,11 @@ Material:
     - _MaxFade: 8
     - _Metallic: 0
     - _Mode: 0
-    - _NormalIntensity: 0.25
+    - _NormalIntensity: 2
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _Scale: 0.2
-    - _Smoothness: 1
+    - _Smoothness: 0.2
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
