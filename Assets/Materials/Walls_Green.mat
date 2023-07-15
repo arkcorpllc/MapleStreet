@@ -97,6 +97,7 @@ Material:
     - _HeightScale: 0.01
     - _MaxFade: 8
     - _Metallic: 0
+    - _MetallicAmount: 0
     - _Mode: 0
     - _NormalIntensity: 2
     - _OcclusionStrength: 1
@@ -110,6 +111,6 @@ Material:
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
-    - _Color: {r: 0.58381987, g: 0.8207547, b: 0.6693022, a: 1}
+    - _Color: {r: 0.6509804, g: 0.7294118, b: 0.6431373, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
